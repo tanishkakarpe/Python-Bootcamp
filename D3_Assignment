@@ -1,0 +1,27 @@
+#slice the given list from index 2 to end 
+my_list=["apple","Mango","Banana",2,3,4,88,65]
+print(my_list[2:8])
+
+#Access banana from list 
+my_list=["apple","Mango","Banana",2,3,4,88,65]
+print(my_list[2])
+
+#Remove Mango from list  
+my_list=["apple","Mango","Banana",2,3,4,88,65]
+my_list.remove("Mango")
+print(my_list)
+
+#insert in list 
+my_list=["apple","Mango","Banana",2,3,4,88,65]
+my_list.insert(3,"Tanishka")
+print(my_list)
+
+#print the Rainbow Color 
+color=("Red","Orange","Yellow","Green","Blue","Indigo","Violet ")
+print(color)
+
+#Use Functions on list 
+l=[2,3,4,5,6]
+print(len(l))
+print(sorted(l))
+print(sum(l))
