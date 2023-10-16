@@ -1,0 +1,29 @@
+#Use If else conditions 
+price=int(input("enter your price"))
+if price>500:
+print("you can apply for courses")
+else:
+print("You can't apply for courses")
+
+a=int(input("enter the 1st no:"))
+b=int(input("enter the 2nd no:"))
+product=a*b
+if product%2!=0:
+print("the product of ",a ,"and",b "is",product)
+else:
+print("The product is not add")
+
+#Leap Year code 
+Year=int(input("enter a year"))
+if(year%4==0 and year%100!=0)or(year%400=0):
+print("Year is Leap year")
+else:
+print("year is not leap year")
+
+#if else condition code example 
+score=int(input("Enter your score"))
+if score>=35:
+print("Student is Passed")
+else:
+print("Student fail in exam")
+
