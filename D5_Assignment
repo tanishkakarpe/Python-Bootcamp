@@ -1,0 +1,50 @@
+#Check wheather given no is even or odd
+number=int(input("Enter a number"))
+if number%2==0:
+ print("The number is even")
+else:
+ print("The number is odd")
+
+#age group classifier code
+n=int(input("enter a age"))
+if age<0:
+   print("Invalid Age")
+elif age<18:
+   print("You are teenager")
+elif age<65:
+   print("you are adult")
+else:
+print("you are senior")
+
+#Tempature Adviser using nested if else 
+temp=int(input("enter the temp"))
+if(temp>25):
+  if(temp<40):
+    print("Enjoy outdoor")
+  else:
+    print("Stay Hyadrate")
+else:
+ print("Wear a Jacket")
+
+#Nested if else condition example 
+color=int(input("enter color"))
+if(color==red):
+     if(color!=yellow):
+          print("STOP")
+     else:
+       print("Prepare to stop")
+else:
+print("GO")
+
+#
+amt=int(input("enter the amt "))
+if amt<=50:
+  discount=5/100*amt
+elif amt>50 and amt<=100:
+  discount =10/100*amt 
+else:
+ discount=15/100*amt
+final=amt-discount
+print("Final Amount is",final)
+
+
